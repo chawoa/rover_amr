@@ -1,0 +1,28 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0
+    sensor_timeout: 0.1
+    two_d_mode: true
+    publish_tf: true
+
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+    map_frame: map
+
+    imu0: /bno055/imu
+    imu0_config: [false, false, false,
+                  false, false, true,
+                  false, false, false,
+                  false, false, true,
+                  false,  false, false]
+    imu0_differential: false
+    imu0_relative: true
+    imu0_remove_gravitational_acceleration: false
+
+    twist0: /wheel_odom_stamped
+    twist0_config: [false, false, false,
+                     false, false, false,
+                     true,  false, false,
+                     false, false, false,
+                     false, false, false]

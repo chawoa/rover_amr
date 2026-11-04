@@ -1,0 +1,27 @@
+# ROS2 빌드 산출물
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+__pycache__/
+*.pyc
+
+# STM32 빌드 산출물
+firmware/**/Debug/
+firmware/**/Release/
+*.elf
+*.bin
+*.map
+
+# 모델 가중치·데이터 (용량 큼)
+*.pt
+*.onnx
+*.engine
+*.bag
+*.db3
+calibration_data/
+
+# 기타
+frames.pdf
+frames_*.gv
+.vscode/
+yolo_venv/

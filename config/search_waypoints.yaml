@@ -1,0 +1,9 @@
+waypoints:
+  - name: "living_room"
+    x: 1.0    # RViz에서 확인한 실제 좌표로 교체
+    y: -3.0
+    yaw: 0.0
+  - name: "bedroom"
+    x: 0.0
+    y: 0.0
+    yaw: 0.0
